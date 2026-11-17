@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Krrish Wadhwa.">
+  <title>Contact | Krrish Wadhwa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+  <header class="site-header">
+    <nav class="site-nav container" aria-label="Main">
+      <a class="brand" href="index.html">
+        Krrish Wadhwa
+        <span class="brand-role">AI automation, Agilitas Sports</span>
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a class="current" href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-intro container">
+      <h1>Contact</h1>
+    </section>
+
+    <section class="container contact-layout">
+
+      <div class="panel surface">
+        <h2>Find me here</h2>
+        <address>
+          <ul class="contact-list">
+            <li><strong>Location</strong> Bangalore, India</li>
+            <li><strong>Email</strong> <a href="mailto:krrish.wadhwa06@gmail.com">krrish.wadhwa06@gmail.com</a></li>
+            <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/krrish-wadhwa-406940265/">linkedin.com/in/krrish-wadhwa-406940265</a></li>
+            <li><strong>GitHub</strong> <a href="https://github.com/krrishwadhwa06-eng">github.com/krrishwadhwa06-eng</a></li>
+          </ul>
+        </address>
+      </div>
+
+      <!-- GitHub Pages serves static files only, so the form hands off to the visitor's mail client. -->
+      <form id="contact-form" class="surface" action="mailto:krrish.wadhwa06@gmail.com" method="post" enctype="text/plain">
+        <h2>Send a message</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="button" type="submit">Send message</button>
+        <p class="form-note">This opens your email app with the message ready to send.</p>
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-inner">
+      <p>Thanks for reading. I built this site myself with HTML and CSS.</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="https://github.com/krrishwadhwa06-eng">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/krrish-wadhwa-406940265/">LinkedIn</a></li>
+      </ul>
+      <p class="copyright">&copy; <time datetime="2026">2026</time> Krrish Wadhwa</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#top">Back to top</a>
+
+</body>
+</html>
